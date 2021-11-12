@@ -1,0 +1,20 @@
+.wrapper {
+    position: relative;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 50px;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
